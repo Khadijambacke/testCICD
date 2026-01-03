@@ -1,13 +1,14 @@
-name: Testing github workflows
+name: mon tru
 
 on: push
    branches:
-     lab1
+     - lab1
 
 jobs:
   init:
     runs-on: ubuntu-latest
     steps:
+   
      - run: echo'Etape 1-Initialisations'
      - run: echo'Etape 2 -Recuperations du code'
      - run: echo'Etape 3 -Build'
