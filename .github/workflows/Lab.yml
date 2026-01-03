@@ -1,7 +1,7 @@
 name: Testing github workflows
 
 on: push
-   branch:
+   branches:
      lab1
 
 jobs:
