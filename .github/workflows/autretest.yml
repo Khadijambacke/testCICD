@@ -6,5 +6,5 @@ jobs:
   init:
     runs-on: ubuntu-latest
     steps:
-      - run: echo 'CECi est mon deuxieme workflows '
+      - run: echo 'mon deuxieme workflows '
       - run: echo $HOSTNAME
