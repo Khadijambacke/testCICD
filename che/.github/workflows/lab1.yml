@@ -1,0 +1,17 @@
+name: Testing branch la1
+
+on: push
+       branches:
+            -Lab1
+    
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 'Etape 1-installations'
+      - run: echo 'Etape 2-Recuperations du code'
+      - run: echo 'Etape 3-Build'
+      - run: echo 'Etape 4-Tests'
+      - run: echo 'Etape 5-Packaging'
+      - run: echo 'Etape 6-Fin du pipeline'
+      - run: echo 'Complete job'
