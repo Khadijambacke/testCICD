@@ -1,0 +1,17 @@
+name: Testing github workflows
+
+on: push
+   branches:
+     lab1
+
+jobs:
+  init:
+    runs-on: ubuntu-latest
+    steps:
+     - run: echo'Etape 1-Initialisations'
+     - run: echo'Etape 2 -Recuperations du code'
+     - run: echo'Etape 3 -Build'
+     - run: echo'Etape 4 -Test'
+     - run: echo'Etape 5 -Packaging'
+     - run: echo'Etape 6 -Fin du pipelines'
+     - run: echo'Conplete job'
