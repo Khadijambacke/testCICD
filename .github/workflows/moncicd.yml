@@ -1,6 +1,8 @@
 name: Testing github workflows
 
 on: push
+  -branches:
+    - main
 
 jobs:
   init:
