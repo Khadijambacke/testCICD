@@ -1,8 +1,9 @@
-name:  Testing github workflows in branch lab1
+name: Testing github workflows in branch lab1
 
-on: push
-      branches:
-        - anotherlab1
+on:
+  push:
+    branches:
+      - anotherlab1
 
 jobs:
   init:
