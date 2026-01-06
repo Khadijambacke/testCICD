@@ -1,8 +1,8 @@
 name:  Testing github workflows in branch lab1
 
 on: push
-    branches:
-      - anotherlab1
+      branches:
+        - anotherlab1
 
 jobs:
   init:
