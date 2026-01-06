@@ -1,6 +1,6 @@
 name:  Testing github workflows in branch lab1
 
-on: pull_request
+on: push
     branches:
       - anotherlab1
 
